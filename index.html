@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pragma Advisory | 自走できる組織を共に創り上げる</title>
-    <meta name="description" content="AI時代に勝てる「唯一無二の組織基盤」を構築する。PMBOK第7版とSECIモデルの実装により、現場の暗黙知を形式知化し、組織の自走化を支援します。">
+    <meta name="description"
+        content="AI時代に勝てる「自走する組織」を構築するPragma Advisory。PMBOK第7版とSECIモデル2.0の実装により現場の暗黙知を資産化し、FCF最大化・WACC低減を実現するプロジェクトマネジメント支援を提供します。">
     <link rel="stylesheet" href="style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;700&display=swap"
@@ -19,13 +20,16 @@
 
     <main>
         <section class="hero fullscreen-section">
-            <div class="hero-message-container fade-in-up">
-                <p class="hero-sub">「仕組み」を納品するのではない。</p>
-                <h1 class="hero-main">「自走できる組織」を共に創り上げる</h1>
-            </div>
-            <div class="scroll-indicator fade-in-delay">
-                <span>Scroll</span>
-                <div class="scroll-line"></div>
+            <canvas id="hero-canvas"></canvas>
+            <div class="hero-content">
+                <div class="hero-message-container fade-in-up">
+                    <p class="hero-sub">「仕組み」を納品するのではない。</p>
+                    <h1 class="hero-main">「自走できる組織」を<br>共に創り上げる</h1>
+                </div>
+                <div class="scroll-indicator fade-in-delay">
+                    <span>Scroll</span>
+                    <div class="scroll-line"></div>
+                </div>
             </div>
         </section>
 
@@ -100,6 +104,112 @@
                         <p>AIの示唆を現場が自分事として実行。その経験がまた新たな「知恵」を生む。</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="content-section reveal bg-alt" id="services">
+            <div class="container">
+                <h2 class="section-title text-center">Services<br><span class="section-subtitle-ja">提供価値</span></h2>
+                <p class="section-text text-center">
+                    「仕組みの納品」に留まらず、貴社の社員が使いこなし、<br>
+                    自走できる状態になるまで伴走します。
+                </p>
+
+                <div class="service-grid">
+                    <div class="service-card reveal-delay-1">
+                        <div class="icon-box">📊</div>
+                        <h3>Strategic PMO<br><span class="ja">戦略的PMO支援</span></h3>
+                        <p>PMBOK第7版に基づき、単なる進捗管理を超えた「価値創出型」のプロジェクトマネジメントを実行。FCF（フリーキャッシュフロー）視点を導入し、投資対効果を最大化します。</p>
+                        <ul class="feature-list">
+                            <li>プロジェクト憲章の策定</li>
+                            <li>WBS/スケジュールの最適化</li>
+                            <li>リスク＆課題管理の定着化</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card reveal-delay-2">
+                        <div class="icon-box">🧠</div>
+                        <h3>Digital Knowledge<br><span class="ja">ナレッジ資産化支援</span></h3>
+                        <p>Kintone等のノーコードツールを活用し、現場の暗黙知を「使える形式知（OPA）」へ変換。SECIモデルを実装し、組織が経験から学び続けるサイクルを構築します。</p>
+                        <ul class="feature-list">
+                            <li>Kintoneアプリ設計・構築</li>
+                            <li>業務フロー（BPMN）の可視化</li>
+                            <li>社内Wiki/ポータルの整備</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card reveal-delay-3">
+                        <div class="icon-box">🌱</div>
+                        <h3>Self-Driven Org<br><span class="ja">自走組織・人材育成</span></h3>
+                        <p>コンサルタントがいなくなっても回る組織へ。「教わる」から「自ら考え、動く」人材への変革を促し、外部依存からの脱却を支援します。</p>
+                        <ul class="feature-list">
+                            <li>PMマインドセット研修</li>
+                            <li>Kintone内製化スキルトランスファー</li>
+                            <li>次世代リーダーへのメンタリング</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Investment Logic Section -->
+        <section class="content-section reveal">
+            <div class="container">
+                <h2 class="section-title text-center">Investment Logic<br><span
+                        class="section-subtitle-ja">財務視点での提供価値</span></h2>
+                <p class="section-text text-center">
+                    プロジェクトマネジメントは単なる管理業務ではありません。<br>
+                    企業価値（Enterprise Value）を直接的に向上させる「投資」です。
+                </p>
+
+                <div class="roi-container">
+                    <!-- Logic 1: FCF -->
+                    <div class="roi-box reveal-delay-1">
+                        <div class="roi-icon">📈</div>
+                        <h3>Process Optimization</h3>
+                        <div class="roi-flow">
+                            <span class="roi-step">手戻り・遅延の削減</span>
+                            <span class="roi-arrow">▼</span>
+                            <span class="roi-step">コスト超過の回避</span>
+                            <span class="roi-arrow">▼</span>
+                            <span class="roi-result">FCFの最大化</span>
+                            <p class="roi-desc">フリーキャッシュフロー</p>
+                        </div>
+                    </div>
+
+                    <!-- Logic 2: WACC -->
+                    <div class="roi-box reveal-delay-2">
+                        <div class="roi-icon">🛡️</div>
+                        <h3>Standardization</h3>
+                        <div class="roi-flow">
+                            <span class="roi-step">属人化の解消</span>
+                            <span class="roi-arrow">▼</span>
+                            <span class="roi-step">事業継続リスクの低減</span>
+                            <span class="roi-arrow">▼</span>
+                            <span class="roi-result">WACCの低減</span>
+                            <p class="roi-desc">加重平均資本コスト</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section reveal text-center">
+            <div class="cta-bg-layer"></div>
+            <div class="container relative z-10">
+                <h2 class="cta-title">まずは、御社の「現場のモヤモヤ」を<br>お聞かせください。</h2>
+                <p class="cta-text">
+                    組織の課題は、内部からは見えにくいものです。<br>
+                    30分の無料相談で、潜在的な「詰まり」を可視化し、<br>
+                    最初の一歩をご提案します。
+                </p>
+                <a href="#" class="btn-primary">
+                    <span class="btn-text">無料相談を申し込む</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+                <p class="cta-subtext">※ 無理な営業は一切いたしません。</p>
             </div>
         </section>
 
